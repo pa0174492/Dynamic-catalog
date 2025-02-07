@@ -1,0 +1,52 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Catalog - 7/2/2025</title>
+      <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+      <style>
+        @media print {
+          body { margin: 0; padding: 20px; }
+          .page-break { page-break-after: always; }
+        }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        img { max-width: 100%; height: auto; }
+      </style>
+    </head>
+    <body class="bg-white">
+      <div class="container">
+        
+          <div class="flex gap-8 my-8 p-6 border rounded-lg">
+            <div class="w-1/2">
+              <img src="/uploads/1738942104308-generated-image.png" alt="New Product" class="w-full h-64 object-cover rounded"/>
+            </div>
+            <div class="w-1/2 space-y-4">
+              <h2 class="text-2xl font-bold">New Product</h2>
+              <p class="text-gray-600">Product Description</p>
+              <p class="text-xl font-bold text-green-600"></p>
+            </div>
+          </div>
+        
+          <div class="text-center my-8">
+            <h1 class="text-4xl font-bold">Helicopter</h1>
+            <p class="text-gray-600 mt-4">Catalog Description</p>
+          </div>
+        
+      </div>
+      <script>
+        window.onload = function() {
+          // Force load images before print
+          const images = document.getElementsByTagName('img');
+          Promise.all(Array.from(images).filter(img => !img.complete).map(img => new Promise(resolve => {
+            img.onload = img.onerror = resolve;
+          }))).then(() => {
+            // All images loaded
+            document.body.classList.add('ready-to-print');
+          });
+        }
+      </script>
+    </body>
+    </html>
+  

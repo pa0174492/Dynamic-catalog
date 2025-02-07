@@ -1,0 +1,13 @@
+{
+  "/catalog-editor/page": "app/catalog-editor/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/api/upload/route": "app/api/upload/route.js",
+  "/api/catalog/save/route": "app/api/catalog/save/route.js",
+  "/api/catalog/export/route": "app/api/catalog/export/route.js",
+  "/page": "app/page.js",
+  "/login/[[...rest]]/page": "app/login/[[...rest]]/page.js",
+  "/(after-auth)/dashboard/page": "app/(after-auth)/dashboard/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/(after-auth)/chat/page": "app/(after-auth)/chat/page.js",
+  "/(after-auth)/image/page": "app/(after-auth)/image/page.js"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "catalog-1738942743761",
+  "sections": [
+    {
+      "id": "section-1738942098697",
+      "type": "product",
+      "content": {
+        "title": "New Product",
+        "description": "Product Description",
+        "layout": "single",
+        "image": "/uploads/1738942104308-generated-image.png"
+      }
+    },
+    {
+      "id": "section-1738942120656",
+      "type": "header",
+      "content": {
+        "title": "Helicopter",
+        "description": "Catalog Description",
+        "layout": "single"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-02-07T15:39:03.761Z",
+    "updatedAt": "2025-02-07T15:39:03.761Z",
+    "version": "1.0"
+  }
+}

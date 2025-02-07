@@ -1,0 +1,37 @@
+{
+  "id": "catalog-1738940655931",
+  "sections": [
+    {
+      "id": "section-1738940643004",
+      "type": "product",
+      "content": {
+        "title": "New Product",
+        "description": "Product Description",
+        "layout": "single"
+      }
+    },
+    {
+      "id": "section-1738940644404",
+      "type": "grid",
+      "content": {
+        "title": "New Product",
+        "description": "Product Description",
+        "layout": "grid"
+      }
+    },
+    {
+      "id": "section-1738940645806",
+      "type": "header",
+      "content": {
+        "title": "Catalog Title",
+        "description": "Catalog Description",
+        "layout": "single"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-02-07T15:04:15.931Z",
+    "updatedAt": "2025-02-07T15:04:15.931Z",
+    "version": "1.0"
+  }
+}
